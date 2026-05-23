@@ -3,7 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { useParams, Link } from "wouter";
 import { Clock, Calendar, ArrowLeft } from "lucide-react";
-import { BLOG_POSTS } from "@/pages/blog-list";
+import { BLOG_POSTS } from "@/views/blog-list";
 
 // Mock content generator for demonstration
 const generateContent = (title: string) => `
