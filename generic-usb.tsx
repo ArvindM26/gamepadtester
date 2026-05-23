@@ -37,7 +37,7 @@ export default function GenericUSBPage() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="USB Gamepad Tester Online | NexusGamepad"
+        title="USB Gamepad Tester Online | Gamepad Tester"
         description="Test any generic USB or Bluetooth gamepad online. Check all buttons, axes, and analog inputs using the browser Gamepad API."
       />
       <Navbar />

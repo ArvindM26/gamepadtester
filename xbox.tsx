@@ -37,7 +37,7 @@ export default function XboxPage() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Xbox Controller Test Online | NexusGamepad"
+        title="Xbox Controller Test Online | Gamepad Tester"
         description="Test your Xbox Series X/S, Xbox One, or Elite controller online. Check bumpers, triggers, analog sticks, and the Guide button."
       />
       <Navbar />

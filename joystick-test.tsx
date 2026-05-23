@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { GamepadTester } from "@/components/tester/GamepadTester";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Gamepad2, Move, Activity, Crosshair, Sliders, ArrowRight, Shield } from "lucide-react";
+import { Gamepad2, Move, Activity, Crosshair, FileSliders as Sliders, ArrowRight, Shield } from "lucide-react";
 
 const FEATURES = [
   { icon: Move, title: "Live Axis Visualization", desc: "Watch both analog stick axes move in real time as you tilt the joystick — X and Y values displayed with precision." },
@@ -41,7 +41,7 @@ export default function JoystickTest() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <SEOHead
-        title="Joystick Test Online — Live Analog Stick Tester | NexusGamepad"
+        title="Joystick Test Online — Live Analog Stick Tester | Gamepad Tester"
         description="Test your joystick or analog sticks online for free. Live axis visualization, deadzone detection, and sensitivity testing directly in your browser. No download needed."
       />
       <Navbar />

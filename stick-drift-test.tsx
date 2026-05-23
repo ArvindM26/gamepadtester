@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { GamepadTester } from "@/components/tester/GamepadTester";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Gamepad2, AlertTriangle, Crosshair, Activity, CircleDot, ArrowRight, Wrench } from "lucide-react";
+import { Gamepad2, TriangleAlert as AlertTriangle, Crosshair, Activity, CircleDot, ArrowRight, Wrench } from "lucide-react";
 
 const FEATURES = [
   { icon: Crosshair, title: "Center-Point Monitor", desc: "The stick dot should sit exactly at center when released. Any deviation without input is the telltale sign of stick drift." },
@@ -42,7 +42,7 @@ export default function StickDriftTest() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <SEOHead
-        title="Stick Drift Test Online — Detect Controller Drift Instantly | NexusGamepad"
+        title="Stick Drift Test Online — Detect Controller Drift Instantly | Gamepad Tester"
         description="Test your controller for stick drift online for free. Release both analog sticks and watch for unwanted movement in real time. Instant drift detection with no download needed."
       />
       <Navbar />

@@ -37,7 +37,7 @@ export default function PS5Page() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="PS5 DualSense Controller Test Online | NexusGamepad"
+        title="PS5 DualSense Controller Test Online | Gamepad Tester"
         description="Test your PS5 DualSense controller online for free. Check buttons, adaptive triggers, analog sticks, and haptic feedback instantly."
       />
       <Navbar />

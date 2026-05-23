@@ -37,7 +37,7 @@ export default function SwitchProPage() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Nintendo Switch Pro Controller Test Online | NexusGamepad"
+        title="Nintendo Switch Pro Controller Test Online | Gamepad Tester"
         description="Test your Nintendo Switch Pro Controller online. Verify all buttons, analog sticks, and triggers in your browser instantly."
       />
       <Navbar />

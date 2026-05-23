@@ -43,7 +43,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
           <Gamepad2 className="w-8 h-8" />
           <span className="font-sans font-bold text-xl tracking-tight text-foreground neon-text-primary">
-            NexusGamepad
+            Gamepad Tester
           </span>
         </Link>
 

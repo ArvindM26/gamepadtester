@@ -6,7 +6,7 @@ import { FileText } from "lucide-react";
 export default function CookiePolicy() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <SEOHead title="Cookie Policy" description="NexusGamepad Cookie Policy." />
+      <SEOHead title="Cookie Policy" description="Gamepad Tester Cookie Policy." />
       <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center py-24 text-center px-4">
         <div className="w-20 h-20 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center mb-6">

@@ -37,7 +37,7 @@ export default function PS4Page() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="PS4 DualShock 4 Controller Test Online | NexusGamepad"
+        title="PS4 DualShock 4 Controller Test Online | Gamepad Tester"
         description="Test your PS4 DualShock 4 controller online. Verify buttons, analog sticks, triggers, and touchpad button in real time."
       />
       <Navbar />
