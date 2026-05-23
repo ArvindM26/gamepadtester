@@ -1,27 +1,27 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "./toaster";
+import { TooltipProvider } from "./tooltip";
 import { useEffect } from "react";
 
-import Home from "@/pages/home";
-import TesterPage from "@/pages/tester-page";
-import BlogList from "@/pages/blog-list";
-import BlogPost from "@/pages/blog-post";
-import About from "@/pages/about";
-import Contact from "@/pages/contact";
-import PrivacyPolicy from "@/pages/legal/privacy-policy";
-import Terms from "@/pages/legal/terms";
-import Disclaimer from "@/pages/legal/disclaimer";
-import CookiePolicy from "@/pages/legal/cookie-policy";
-import NotFound from "@/pages/not-found";
-import PS5Page from "@/pages/controller/ps5";
-import PS4Page from "@/pages/controller/ps4";
-import XboxPage from "@/pages/controller/xbox";
-import SwitchProPage from "@/pages/controller/switch-pro";
-import GenericUSBPage from "@/pages/controller/generic-usb";
-import JoystickTest from "@/pages/joystick-test";
-import StickDriftTest from "@/pages/stick-drift-test";
+import Home from "./home";
+import TesterPage from "./tester-page";
+import BlogList from "./blog-list";
+import BlogPost from "./blog-post";
+import About from "./about";
+import Contact from "./contact";
+import PrivacyPolicy from "./privacy-policy";
+import Terms from "./terms";
+import Disclaimer from "./disclaimer";
+import CookiePolicy from "./cookie-policy";
+import NotFound from "./not-found";
+import PS5Page from "./ps5";
+import PS4Page from "./ps4";
+import XboxPage from "./xbox";
+import SwitchProPage from "./switch-pro";
+import GenericUSBPage from "./generic-usb";
+import JoystickTest from "./joystick-test";
+import StickDriftTest from "./stick-drift-test";
 
 const queryClient = new QueryClient();
 
