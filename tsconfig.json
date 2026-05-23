@@ -17,7 +17,7 @@
     "noFallthroughCasesInSwitch": true,
     "types": ["node", "vite/client"],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["./**/*.ts", "./**/*.tsx"],
