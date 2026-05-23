@@ -1,7 +1,5 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "./toaster";
-import { TooltipProvider } from "./tooltip";
 import { useEffect } from "react";
 
 import Home from "./home";
@@ -25,10 +23,10 @@ import StickDriftTest from "./stick-drift-test";
 
 const queryClient = new QueryClient();
 
-// Add dark mode by default
+// Dark mode setup
 function DarkModeSetup() {
   useEffect(() => {
-    document.documentElement.classList.add('dark');
+    document.documentElement.classList.add("dark");
   }, []);
   return null;
 }
@@ -61,13 +59,10 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <DarkModeSetup />
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-          <Router />
-        </WouterRouter>
-        <Toaster />
-      </TooltipProvider>
+      <DarkModeSetup />
+      <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        <Router />
+      </WouterRouter>
     </QueryClientProvider>
   );
 }
