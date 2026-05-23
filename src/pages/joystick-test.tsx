@@ -41,7 +41,7 @@ export default function JoystickTest() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <SEOHead
-        title="Joystick Test Online — Live Analog Stick Tester | NexusGamepad"
+        title="Joystick Test Online — Live Analog Stick Tester | Gamepad Tester"
         description="Test your joystick or analog sticks online for free. Live axis visualization, deadzone detection, and sensitivity testing directly in your browser. No download needed."
       />
       <Navbar />

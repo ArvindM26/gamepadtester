@@ -11,7 +11,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors mb-4">
               <Gamepad2 className="w-8 h-8" />
               <span className="font-sans font-bold text-xl tracking-tight text-foreground neon-text-primary">
-                NexusGamepad
+                Gamepad Tester
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
@@ -55,7 +55,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} NexusGamepad. All rights reserved.
+            &copy; {new Date().getFullYear()} Gamepad Tester. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground/60">
             Trademarks belong to their respective owners. Not affiliated with Sony, Microsoft, or Nintendo.

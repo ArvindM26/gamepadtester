@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="min-h-screen bg-background flex flex-col">
       <SEOHead 
         title="Contact Us"
-        description="Get in touch with the NexusGamepad team for support, business inquiries, or feedback."
+        description="Get in touch with the Gamepad Tester team for support, business inquiries, or feedback."
       />
       <Navbar />
 

@@ -6,7 +6,7 @@ import { FileText } from "lucide-react";
 export default function Terms() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <SEOHead title="Terms of Service" description="NexusGamepad Terms of Service." />
+      <SEOHead title="Terms of Service" description="Gamepad Tester Terms of Service." />
       <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center py-24 text-center px-4">
         <div className="w-20 h-20 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center mb-6">

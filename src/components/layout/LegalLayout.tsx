@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 export default function LegalPage({ title, children }: { title: string, children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <SEOHead title={title} description={`${title} for NexusGamepad`} />
+      <SEOHead title={title} description={`${title} for Gamepad Tester`} />
       <Navbar />
 
       <main className="flex-1 container mx-auto px-4 py-16 max-w-4xl">
